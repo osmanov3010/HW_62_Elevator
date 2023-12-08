@@ -2,11 +2,6 @@ package ait.elevator.task;
 
 import ait.elevator.model.Elevator;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-
 public class Truck implements Runnable {
     private static Object[] monitor = {new Object(), new Object(), new Object(), new Object()};
     // идея такая, что для каждого элеватора сделать свой объект
